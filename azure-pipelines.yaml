@@ -1,0 +1,12 @@
+trigger:
+- master
+
+steps:
+- task: Docker@2
+  inputs:
+    containerRegistry: 'DG Modules Container Registry'
+    repository: 'planetexpress/jinja2-templating'
+    command: 'buildAndPush'
+    Dockerfile: 'Dockerfile'
+    addPipelineData: false
+    tags: 'latest'

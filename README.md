@@ -2,6 +2,8 @@
 
 This repository provides the Dockerfile to create an image, which can be used for Jinja2 Templating, including the CLI. More info at https://jinja.palletsprojects.com/en/2.11.x/.
 
+[![Build Status](https://digitecgalaxus.visualstudio.com/SystemEngineering/_apis/build/status/DigitecGalaxus.jinja2-templating?branchName=main)](https://digitecgalaxus.visualstudio.com/SystemEngineering/_build/latest?definitionId=1364&branchName=main)
+
 ## Prerequisites
 
 - A docker host to build it manually or access to Azure DevOps to build it automatically with the [azure-pipelines.yml](azure-pipelines.yml) file.

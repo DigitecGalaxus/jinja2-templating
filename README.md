@@ -31,5 +31,3 @@ No matter how small, we value every contribution! If you wish to contribute,
 2. Fork the repository, implement the feature and submit a pull request
 3. Add yourself to the CONTRIBUTORS.txt file in that pull request
 4. Your feature will be added once the pull request is merged
-
-

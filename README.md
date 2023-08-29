@@ -13,14 +13,14 @@ This repository provides the Dockerfile to create an image, which can be used fo
 Build the docker image:
 
 ```sh
-docker image build -t anymodconrst001dg.azurecr.io/planetexpress/jinja2-templating:latest .
+docker image build -t dgpublicimagesprod.azurecr.io/planetexpress/jinja2-templating:latest .
 ```
 
 Use the docker image to use the j2 CLI:
 
 ```sh
 # Mount the j2 template into the container and adjust the command accordingly
-docker container run -it anymodconrst001dg.azurecr.io/planetexpress/jinja2-templating:latest /bin/sh -c 'j2 -f json ...'
+docker container run -it dgpublicimagesprod.azurecr.io/planetexpress/jinja2-templating:latest /bin/sh -c 'j2 -f json ...'
 ```
 
 ## Contribute
